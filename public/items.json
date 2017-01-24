@@ -1,0 +1,111 @@
+{
+  "note": [
+    "<strong>Pre-Spring Clean, Two-Thousand & Seventeen</strong>",
+    "Hey, thanks for taking a look at this list. Offloading some gear and clothing which has gone unused. Ultimately would be great to see everything go by mid-February, so name your price.",
+    "If you want to nab anything send an email to <a href=mailto:contact@jon-kyle.com class='tc-black tdn'>contact@jon-kyle.com</a>. Preferably you’re in Los Angeles so you can come pick it up, but can ship something if needed.",
+    "<span class='em mr0-5'></span> Jon-Kyle"
+  ],
+  "items": {
+    "slim-phatty": {
+      "id": "slim-phatty",
+      "title": "Moog Slim Phatty",
+      "type": "music",
+      "image": ["IMG_1328.jpg"],
+      "href": "http://www.vintagesynth.com/moog/slimphatty.php",
+      "new": "$849",
+      "asking": "$600",
+      "text": "Purchased this a few years ago. Sounds great, just doesn’t get much usage."
+    },
+    "guitar": {
+      "id": "guitar",
+      "title": "Epiphone Les Paul Studio",
+      "type": "music",
+      "image": ["IMG_1317.jpg"],
+      "href": "http://www.epiphone.com/Products/Les-Paul/Les-Paul-Studio.aspx",
+      "new": "$350",
+      "asking": "$200",
+      "text": "Nice to have around, plays pretty well for the price. Not getting much use."
+    },
+    "synths": {
+      "id": "synths",
+      "title": "Yamaha sk10, sk5, pss130, Meeblip anode",
+      "type": "music",
+      "image": ["IMG_1325.jpg"],
+      "asking": "$10/sk5 $10/sk10 $5/pss130 $20/meblip",
+      "text": "Sk10/sk5 are fun lofi samplers. Sk5 has been modded with a 1/4” output. Pss130 good for circuit bending. Have never even plugged the meblip in!"
+    },
+    "teac": {
+      "id": "teac",
+      "title": "TEAC A-170",
+      "type": "music",
+      "image": ["IMG_1311.jpg"],
+      "new": "$175",
+      "asking": "$50",
+      "text": "Fully functionally. Bought it a few years ago from Jacknife in Atwater."
+    },
+    "dimmer": {
+      "id": "dimmer",
+      "title": "Chauvet Pro D6 Dimmer Pack",
+      "type": "lighting",
+      "image": ["IMG_1319.jpg"],
+      "href": "https://www.bhphotovideo.com/bnh/controller/home?O=&sku=751526&gclid=Cj0KEQiAzZHEBRD0ivi9_pDzgYMBEiQAtvxt-Frqf9O8v1kwcTfgFl4UMR_fRa-KJV3-gilKs5eVtKEaAtuL8P8HAQ&Q=&ap=y&m=Y&c3api=1876%2C92051678882%2C&is=REG&A=details",
+      "new": "$280",
+      "asking": "$160",
+      "text": "Super heavy duty dimmer pack. Includes these two converts for the power cables."
+    },
+    "macbook": {
+      "id": "macbook",
+      "title": "Macbook Pro 15” (2012)",
+      "type": "computing",
+      "image": ["IMG_1326.jpg"],
+      "new": "$2400",
+      "asking": "$750",
+      "text": "Maxed out 2012 Macbook Pro. Runs a little slower these days, but a good back up or spare machine. Recently the entire keyboard, trackpad and upper body was replaced."
+    },
+    "misc-lights": {
+      "id": "misc-lights",
+      "title": "Misc Lighting/Electronics",
+      "type": "computing",
+      "image": ["IMG_1329.jpg"],
+      "new": "$1500",
+      "asking": "$whatever",
+      "text": "As a whole, this is a fully functional custom light installation using a custom DMX over ethernet protocol. Massively extensible, but a pain in the ass the get working. The individual parts are still valuable. Have a bunch of 25' white LED strips, a bunch of 25' cat5 cables, a bunch of power bricks, etc… Just ask and I’ll let you know."
+    },
+    "dmx": {
+      "id": "dmx",
+      "title": "100ft dmx 3pin cable, 25ft dmx 5pin cable",
+      "type": "lighting",
+      "image": ["IMG_1314.jpg"],
+      "new": "$40/100ft $10/25ft",
+      "asking": "$10/100ft $5/25ft"
+    },
+    "pants": {
+      "id": "pants",
+      "title": "Outlier Slim Dungarees (2013)",
+      "type": "clothing",
+      "image": ["IMG_1300.jpg"],
+      "new": "$200",
+      "asking": "$100",
+      "text": "Size 30. Rugged pant made of 2-way stretch doubleweave canvas. Like new condition. Keeping a pair for myself to wear on hikes."
+    },
+    "aloye": {
+      "id": "aloye",
+      "title": "Aloye Tees (2012)",
+      "type": "clothing",
+      "image": ["IMG_1301.jpg", "IMG_1302.jpg", "IMG_1303.jpg", "IMG_1305.jpg", "IMG_1306.jpg", "IMG_1307.jpg", "IMG_1308.jpg", "IMG_1309.jpg"],
+      "new": "$90/each",
+      "asking": "$20/each",
+      "text": "Size Small. Little Japanese label. As seen on Mr. Porter, etc… Def had a moment with these shirts."
+    },
+    "makr": {
+      "id": "makr",
+      "title": "Makr Ruck Sack (2010)",
+      "type": "accessories",
+      "image": ["IMG_1318.jpg"],
+      "href": "https://makr.com/farm-ruck-sack-natural-canvas-and-natural-horween-hs-leather",
+      "new": "$185",
+      "asking": "$40",
+      "text": "Canvas backpack. Pretty worn in. Def a little dirty, but can take a beating and still has some life in it."
+    }
+  }
+}
