@@ -46,7 +46,7 @@ function elItem (o, i) {
           <div class="c6"><strike>${getLines(o.new)}</strike></div>
           <div class="c6"><strong>${getLines(o.asking)}</strong></div>
         </div>
-        <div class="c10 mt2">${o.text}</div>
+        <div class="c10 mt2 ti3">${o.text}</div>
       </div>
       <div class="c7 x xw" sm="c12">
         ${elImages(o.image)}
