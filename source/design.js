@@ -34,6 +34,24 @@ var custom = `
     right: 0;
     height: 1px;
   }
+
+  a .em:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 1px;
+    border: 1px solid #000;
+    border-left: 0;
+    border-bottom: 0;
+    height: 0.75em;
+    width: 0.75em;
+    transform: rotate(45deg) translateY(0.55px);
+    opacity: 0;
+  }
+
+  a:hover .em:before {
+    opacity: 1;
+  }
 `
 
 css.add({

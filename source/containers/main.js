@@ -13,7 +13,7 @@ function navigation (opts) {
 
   var items = ov(o.items)
     .map(item => h`<div class="c12" sm="c4">
-      <span class="em" sm="din"></span><a href="#${item}" class="tdn tc-black">${item}</a>
+      <a href="#${item}" class="tdn tc-black"><span class="em" sm="din"></span>${item}</a>
     </div>`)
 
   return h`
@@ -25,7 +25,7 @@ function navigation (opts) {
       <div class="c12 pt2" sm="c12">
         <div class="c12" sm="fwb">contact</div>
         <div class="c12">
-          <span class="em mr0-5" sm="din"></span><a href="mailto:contact@jon-kyle.com" class="tdn tc-black">email</a>
+          <a href="mailto:contact@jon-kyle.com" class="tdn tc-black"><span class="em mr0-5" sm="din"></span>email</a>
         </div>
       </div>
     </div>
