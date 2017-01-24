@@ -60,6 +60,8 @@ css.add({
   hyphenate: true,
   vals: [{
     black: '#000'
+  }, {
+    red: '#f00'
   }]
 })
 

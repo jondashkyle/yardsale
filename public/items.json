@@ -28,11 +28,11 @@
     },
     "synths": {
       "id": "synths",
-      "title": "Yamaha sk10, sk5, pss130, Meeblip anode",
+      "title": "Yamaha pss130, Meeblip anode",
       "type": "music",
       "image": ["IMG_1325.jpg"],
-      "asking": "$10/sk5 $10/sk10 $5/pss130 $20/meblip",
-      "text": "Sk10/sk5 are fun lofi samplers. Sk5 has been modded with a 1/4” output. Pss130 good for circuit bending. Have never even plugged the meblip in!"
+      "asking": "$5/pss130 $20/meblip",
+      "text": "Sk10/sk5 are fun lofi samplers. Sk5 has been modded with a 1/4” output. Pss130 good for circuit bending. Have never even plugged the meblip in! Sk5/Sk10 SOLD."
     },
     "teac": {
       "id": "teac",
@@ -41,7 +41,8 @@
       "image": ["IMG_1311.jpg"],
       "new": "$175",
       "asking": "$50",
-      "text": "Fully functionally. Bought it a few years ago from Jacknife in Atwater."
+      "text": "Fully functionally. Bought it a few years ago from Jacknife in Atwater.",
+      "sold": true
     },
     "dimmer": {
       "id": "dimmer",
