@@ -34,19 +34,22 @@ function elItem (o, i) {
   var id = h`<div id="${o.type}"></div>`
   return h`
     <div
-      class="c12 x xw"
+      class="c12 x xw psr"
       id="${o.id}"
     >
       ${o.showCategory ? id : ''}
       <div class="c5 p0-5" sm="c12">
-        <div class="c12 bt1b pt0-5"><strong>${o.title}</strong></div>
+        <div class="x xjb c12 bt1b pt0-5">
+          <strong>${o.title}</strong>
+          <strong class="tc-red">${o.sold ? 'SOLD' : ''}</strong>
+        </div>
         <div class="x xw mt1">
           <div class="c6">New</div>
           <div class="c6">Asking</div>
           <div class="c6"><strike>${getLines(o.new)}</strike></div>
           <div class="c6"><strong>${getLines(o.asking)}</strong></div>
         </div>
-        <div class="c10 mt2">${o.text}</div>
+        <div class="c10 mt2 ti3">${o.text}</div>
       </div>
       <div class="c7 x xw" sm="c12">
         ${elImages(o.image)}

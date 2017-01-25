@@ -46,13 +46,13 @@ function formatItems (body) {
       {
         image: item.image.map(img =>
           ['images/', img].join('')
-        ) 
+        )
       }
     )
   })
 
   return {
-    note: formatted.note.join('<br><br>'),
+    note: formatted.note.join('\n\n'),
     items: items,
     categories: categories
   }

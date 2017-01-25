@@ -3,7 +3,7 @@
     "<strong>Pre-Spring Clean, Two-Thousand & Seventeen</strong>",
     "Hey, thanks for taking a look at this list. Offloading some gear and clothing which has gone unused. Ultimately would be great to see everything go by mid-February, so name your price.",
     "If you want to nab anything send an email to <a href=mailto:contact@jon-kyle.com class='tc-black tdn'>contact@jon-kyle.com</a>. Preferably you’re in Los Angeles so you can come pick it up, but can ship something if needed.",
-    "<span class='em mr0-5'></span> Jon-Kyle"
+    "<span class='em mr0-5'></span>Jon-Kyle"
   ],
   "items": {
     "slim-phatty": {
@@ -28,11 +28,11 @@
     },
     "synths": {
       "id": "synths",
-      "title": "Yamaha sk10, sk5, pss130, Meeblip anode",
+      "title": "Yamaha pss130, Meeblip anode",
       "type": "music",
       "image": ["IMG_1325.jpg"],
-      "asking": "$10/sk5 $10/sk10 $5/pss130 $20/meblip",
-      "text": "Sk10/sk5 are fun lofi samplers. Sk5 has been modded with a 1/4” output. Pss130 good for circuit bending. Have never even plugged the meblip in!"
+      "asking": "$5/pss130 $20/meblip",
+      "text": "Sk10/sk5 are fun lofi samplers. Sk5 has been modded with a 1/4” output. Pss130 good for circuit bending. Have never even plugged the meblip in! Sk5/Sk10 SOLD."
     },
     "teac": {
       "id": "teac",
@@ -41,7 +41,8 @@
       "image": ["IMG_1311.jpg"],
       "new": "$175",
       "asking": "$50",
-      "text": "Fully functionally. Bought it a few years ago from Jacknife in Atwater."
+      "text": "Fully functionally. Bought it a few years ago from Jacknife in Atwater.",
+      "sold": true
     },
     "dimmer": {
       "id": "dimmer",
@@ -51,7 +52,7 @@
       "href": "https://www.bhphotovideo.com/bnh/controller/home?O=&sku=751526&gclid=Cj0KEQiAzZHEBRD0ivi9_pDzgYMBEiQAtvxt-Frqf9O8v1kwcTfgFl4UMR_fRa-KJV3-gilKs5eVtKEaAtuL8P8HAQ&Q=&ap=y&m=Y&c3api=1876%2C92051678882%2C&is=REG&A=details",
       "new": "$280",
       "asking": "$160",
-      "text": "Super heavy duty dimmer pack. Includes these two converts for the power cables."
+      "text": "Super heavy duty dimmer pack. Includes two power adapters needed to plugin to a standard outlet."
     },
     "macbook": {
       "id": "macbook",

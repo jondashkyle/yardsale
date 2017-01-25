@@ -1,3 +1,4 @@
+var md = require('marked')
 var ov = require('object.values')
 var h = require('choo/html')
 var x = require('xtend')
@@ -12,8 +13,7 @@ function navigation (opts) {
 
   var items = ov(o.items)
     .map(item => h`<div class="c12" sm="c4">
-      <span class="em mr0-5" sm="din"></span>
-      <a href="#${item}" class="tdn tc-black">${item}</a>
+      <a href="#${item}" class="tdn tc-black"><span class="em" sm="din"></span>${item}</a>
     </div>`)
 
   return h`
@@ -25,8 +25,7 @@ function navigation (opts) {
       <div class="c12 pt2" sm="c12">
         <div class="c12" sm="fwb">contact</div>
         <div class="c12">
-          <span class="em mr0-5" sm="din"></span>
-          <a href="mailto:contact@jon-kyle.com" class="tdn tc-black">email</a>
+          <a href="mailto:contact@jon-kyle.com" class="tdn tc-black"><span class="em mr0-5" sm="din"></span>email</a>
         </div>
       </div>
     </div>
@@ -48,8 +47,8 @@ module.exports = function (state, prev, send) {
     pathImages: state.site.pathImages
   })
 
-  var elNote = h`<div class="c6" md="c8" sm="c12"></div>`
-  elNote.innerHTML = state.note
+  var elNote = h`<div class="c6 ti3" md="c8" sm="c12"></div>`
+  elNote.innerHTML = md(state.note)
 
   return h`
     <div class="x xw ff-sans ls2 fs1-3 lh1-35">

@@ -6,23 +6,23 @@ var css = gr8({
   lineHeight: [1, 1.35, 1.5],
   responsive: true,
   fontSize: [1, 1.25, 1.3, 1.75, 2],
-  spacing: [0.25, 0.5, 1, 1.5, 2, 3],
+  spacing: [0.25, 0.5, 1, 1.5, 2, 3]
 })
 
 var custom = `
   p {
-    text-indent: 1rem;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 1.35em;
+    margin-bottom: 1.35em;
   }
-  p:first-child { margin-top: 0 }
-  p:last-child { margin-bottom: 0 }
+  p:first-child { margin-top: 0; text-indent: 0; }
+  p:last-child { margin-bottom: 0; text-indent: 0; }
 
   .em {
     display: inline-block;
     position: relative;
+    margin-right: 0.5rem;
     height: 0.75em;
-    width: 2rem;
+    width: 2.5rem;
   }
 
   .em:after {
@@ -34,6 +34,24 @@ var custom = `
     right: 0;
     height: 1px;
   }
+
+  a .em:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 1px;
+    border: 1px solid #000;
+    border-left: 0;
+    border-bottom: 0;
+    height: 0.75em;
+    width: 0.75em;
+    transform: rotate(45deg) translateY(0.55px);
+    opacity: 0;
+  }
+
+  a:hover .em:before {
+    opacity: 1;
+  }
 `
 
 css.add({
@@ -42,6 +60,8 @@ css.add({
   hyphenate: true,
   vals: [{
     black: '#000'
+  }, {
+    red: '#f00'
   }]
 })
 
@@ -87,11 +107,26 @@ css.add({
   }]
 })
 
+css.add({
+  prop: 'text-indent',
+  unit: 'em',
+  vals: [1, 1.5, 2, 3]
+})
+
+css.add({
+  prop: 'text-indent',
+  suffix: ' p',
+  unit: 'rem',
+  vals: [3]
+})
+
 exports.start = function () {
   var elCustom = h`<style></style>`
   elCustom.innerHTML = custom
-  document.head.appendChild(elCustom) 
 
   css.attach()
   recsst.attach()
+
+  document.head.appendChild(elCustom)
 }
+

@@ -15,6 +15,7 @@
     "choo": "^4.1.0",
     "es2040": "^1.2.4",
     "gr8": "git+https://amongiants@bitbucket.org/amongiants/gr8.git",
+    "marked": "^0.3.6",
     "object.values": "^1.0.4",
     "recsst": "^1.1.0",
     "xhr": "^2.3.3",
