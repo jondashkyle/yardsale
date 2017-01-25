@@ -98,6 +98,15 @@
       "asking": "$20/each",
       "text": "Size Small. Little Japanese label. As seen on Mr. Porter, etc… Def had a moment with these shirts."
     },
+    "tent": {
+      "id": "tent",
+      "title": "MSR “Mutha Hubba” Tent",
+      "type": "accessories",
+      "image": ["IMG_1332.JPG"],
+      "new": "$500",
+      "asking": "$150",
+      "text": "Really nice, lightweight 3 person tent. Purchased new from REI a few years ago. Moderatly used. Includes base, rain-fly, all the good stuff."
+    },
     "makr": {
       "id": "makr",
       "title": "Makr Ruck Sack (2010)",
