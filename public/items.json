@@ -23,7 +23,7 @@
       "image": ["IMG_1317.jpg"],
       "href": "http://www.epiphone.com/Products/Les-Paul/Les-Paul-Studio.aspx",
       "new": "$350",
-      "asking": "$200",
+      "asking": "$100",
       "text": "Nice to have around, plays pretty well for the price. Not getting much use."
     },
     "synths": {
@@ -51,7 +51,7 @@
       "image": ["IMG_1319.jpg"],
       "href": "https://www.bhphotovideo.com/bnh/controller/home?O=&sku=751526&gclid=Cj0KEQiAzZHEBRD0ivi9_pDzgYMBEiQAtvxt-Frqf9O8v1kwcTfgFl4UMR_fRa-KJV3-gilKs5eVtKEaAtuL8P8HAQ&Q=&ap=y&m=Y&c3api=1876%2C92051678882%2C&is=REG&A=details",
       "new": "$280",
-      "asking": "$160",
+      "asking": "$120",
       "text": "Super heavy duty dimmer pack. Includes two power adapters needed to plugin to a standard outlet."
     },
     "macbook": {
@@ -60,7 +60,7 @@
       "type": "computing",
       "image": ["IMG_1326.jpg"],
       "new": "$2400",
-      "asking": "$750",
+      "asking": "$700",
       "text": "Maxed out 2012 Macbook Pro. Runs a little slower these days, but a good back up or spare machine. Recently the entire keyboard, trackpad and upper body was replaced."
     },
     "misc-lights": {
@@ -77,7 +77,7 @@
       "title": "100ft dmx 3pin cable, 25ft dmx 5pin cable",
       "type": "lighting",
       "image": ["IMG_1314.jpg"],
-      "new": "$40/100ft $10/25ft",
+      "new": "$20/100ft $5/25ft",
       "asking": "$10/100ft $5/25ft"
     },
     "pants": {
@@ -86,7 +86,7 @@
       "type": "clothing",
       "image": ["IMG_1300.jpg"],
       "new": "$200",
-      "asking": "$100",
+      "asking": "$75",
       "text": "Size 30. Rugged pant made of 2-way stretch doubleweave canvas. Like new condition. Keeping a pair for myself to wear on hikes."
     },
     "aloye": {
@@ -94,7 +94,7 @@
       "title": "Aloye Tees (2012)",
       "type": "clothing",
       "image": ["IMG_1301.jpg", "IMG_1302.jpg", "IMG_1303.jpg", "IMG_1305.jpg", "IMG_1306.jpg", "IMG_1307.jpg", "IMG_1308.jpg", "IMG_1309.jpg"],
-      "new": "$90/each",
+      "new": "$65/each",
       "asking": "$20/each",
       "text": "Size Small. Little Japanese label. As seen on Mr. Porter, etc… Def had a moment with these shirts."
     },
@@ -114,7 +114,7 @@
       "image": ["IMG_1318.jpg"],
       "href": "https://makr.com/farm-ruck-sack-natural-canvas-and-natural-horween-hs-leather",
       "new": "$185",
-      "asking": "$40",
+      "asking": "$30",
       "text": "Canvas backpack. Pretty worn in. Def a little dirty, but can take a beating and still has some life in it."
     }
   }
